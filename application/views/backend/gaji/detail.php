@@ -271,7 +271,7 @@
 							<br>
 							<br>
 							<br>
-							<p><b><u><?= $user["pengguna_nama"] ?></u></b></p>
+							<p><b><u><?= $manajer["pengguna_nama"] ?></u></b></p>
 						</div>
 					</div>
 				</div>

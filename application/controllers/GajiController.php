@@ -36,7 +36,7 @@ class GajiController extends CI_Controller
 			'karyawan' => $this->KaryawanModel->lihat_satu_karyawan($id),
 			'gaji' => $this->GajiModel->lihat_gaji_perorang($id),
 			'title' => 'Gaji',
-			'user' => $this->db->get_where('pengguna', ['hak_akses_id' =>
+			'manajer' => $this->db->get_where('pengguna', ['hak_akses_id' =>
 			2])->row_array(),
 		);
 

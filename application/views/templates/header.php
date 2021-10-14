@@ -253,7 +253,7 @@
 						</a>
 					</li>
 				<?php endif; ?>
-				<?php if ($this->session->userdata('session_hak_akses') != 'admin qr') : ?>
+				<?php if ($this->session->userdata('session_hak_akses') != 'admin qr' && $this->session->userdata('session_hak_akses') != 'admin') : ?>
 					<li class=" nav-item <?php if ($this->uri->segment(1) == 'profile') echo 'active' ?>">
 						<a href="<?= base_url('profile/' . $this->session->userdata('session_id')) ?>"><i class="ft-user"></i>
 							<span class="menu-title" data-i18n="">Profile</span>

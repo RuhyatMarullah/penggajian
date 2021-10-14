@@ -205,7 +205,7 @@ class PenggunaController extends CI_Controller
 		if ($img) {
 
 			$config['upload_path'] = './assets/images/profile/';
-			$config['allowed_types'] = 'gif|jpg|png';
+			$config['allowed_types'] = 'gif|jpg|png|jpeg';
 			$config['max_size']     = '10000';
 
 
@@ -221,6 +221,7 @@ class PenggunaController extends CI_Controller
 			} else {
 
 				echo $this->upload->display_errors();
+				exit;
 			}
 		} else {
 			redirect('profile/' . $this->session->userdata('session_id'));

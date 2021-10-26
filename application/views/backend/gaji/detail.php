@@ -189,7 +189,7 @@
 					<div class="row">
 						<div class="col-12">
 							<div class="tengah">
-								<h3><b>PT Gajian</b></h3>
+								<h3><b>PT PUJA TEKNIK SERVINDO</b></h3>
 							</div>
 							<div class="tengah">Jalan Oscar 3, Kecamatan Pamulang, Tangerang Selatan, Banten</div>
 							<hr>
